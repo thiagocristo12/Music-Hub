@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MusicHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="nav-left">
+            <a href="index.html" class="logo-container">
+                <img src="assets/logo.png" alt="MusicHub Logo">
+                <span>MusicHub - Trilha JS</span>
+            </a>
+        </div>
+
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav id="menu" class="nav-right">
+            <a href="index.html">Início</a>
+            <a href="#">Cursos</a>
+            <a href="perfil.html">Perfil</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>🎸 Sua Trilha Musical Começa Aqui!</h1>
+            <p>Aprenda música de forma prática e divertida. Escolha seu instrumento e comece sua jornada agora mesmo.
+            </p>
+            <button onclick="scrollToCourses()" style="font-size: 1.2rem; padding: 15px 40px;">Explorar Cursos</button>
+        </section>
+        <div id="courses-container"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

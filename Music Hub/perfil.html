@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Perfil</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="nav-left">
+    <a href="index.html" class="logo-container">
+      <img src="assets/logo.png" alt="MusicHub Logo">
+      <span>MusicHub - Trilha JS</span>
+    </a>
+  </div>
+
+  <div class="menu-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <nav id="menu" class="nav-right">
+    <a href="index.html">Início</a>
+    <a href="#">Cursos</a>
+    <a href="perfil.html">Perfil</a>
+  </nav>
+</header>
+
+<main class="profile-layout">
+
+  <div class="profile-container">
+    <h2>👤 Meu Perfil</h2>
+
+    <form id="profile-form">
+      <label>Nome</label>
+      <input type="text" id="name" placeholder="Seu nome">
+
+      <label>Email</label>
+      <input type="email" id="email" placeholder="Seu email">
+
+      <label>Instrumento favorito</label>
+      <input type="text" id="instrument" placeholder="Ex: Violão">
+
+      <label>Sobre você</label>
+      <textarea id="bio" placeholder="Fale sobre você..."></textarea>
+
+      <button type="submit">Salvar</button>
+    </form>
+  </div>
+
+  <!-- CARD -->
+  <div class="profile-card" id="profile-card">
+    <h3>🎵 Seu Perfil</h3>
+    <p><strong>Nome:</strong> <span id="card-name">-</span></p>
+    <p><strong>Email:</strong> <span id="card-email">-</span></p>
+    <p><strong>Instrumento:</strong> <span id="card-instrument">-</span></p>
+    <p><strong>Bio:</strong> <span id="card-bio">-</span></p>
+  </div>
+
+</main>
+
+<script src="perfil.js"></script>
+</body>
+</html>

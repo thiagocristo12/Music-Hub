@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Curso</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="nav-left">
+            <a href="index.html" class="logo-container">
+                <img src="assets/logo.png" alt="MusicHub Logo">
+                <span>MusicHub - Trilha JS</span>
+            </a>
+        </div>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav id="course-menu" class="nav-right">
+            <a href="index.html">← Início</a>
+        </nav>
+    </header>
+
+    <main>
+        <aside class="sidebar" id="lesson-sidebar">
+            <h4>Aulas</h4>
+            <div id="lessons-list"></div>
+        </aside>
+        <div class="main-content">
+            <nav class="breadcrumb" id="breadcrumb"></nav>
+            <div class="course-header">
+                <h1 id="course-title"></h1>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+                <p id="progress-text">0% concluído</p>
+            </div>
+            <div id="course-detail"></div>
+            <button id="next-lesson" style="display:none;">Próxima Aula ➡️</button>
+        </div>
+    </main>
+
+    <script src="course.js"></script>
+</body>
+
+</html>
