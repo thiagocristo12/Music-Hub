@@ -44,7 +44,7 @@ Este projeto foi desenvolvido com o intuito de praticar e demonstrar:
 
 ## 🔗 Acesse o projeto
 
-👉 https://thiagocristo12.github.io/Music-Hub/
+[👉 https://thiagocristo12.github.io/Music-Hub/](https://github.com/thiagocristo12/Music-Hub)
 
 ---
 
